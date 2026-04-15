@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradhan V - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <nav class="navbar glass">
+        <div class="logo">P.V</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#learning">Learning</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certificates</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="hero section">
+            <div class="hero-content fade-in">
+                <div class="badge glass">
+                    <span class="ping"></span>
+                    Available for work
+                </div>
+                <h1>Hi, I'm <span class="highlight">Pradhan V</span></h1>
+                <p class="subtitle">Frontend & MERN Stack Developer. Exploring the realms of Web3, AI, and beautiful web interfaces.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">My Work</a>
+                    <a href="https://github.com/pradhanvishveshwaraiah" target="_blank" class="btn btn-glass"><i data-lucide="github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="hero-image glass fade-in" style="animation-delay: 0.2s;">
+                <img src="profile.png" alt="Pradhan V - MERN Stack Developer" class="profile-photo" />
+            </div>
+        </section>
+
+        <section id="learning" class="section">
+            <h2 class="section-title fade-in">My <span class="highlight">Learning Path</span></h2>
+            <div class="learning-grid">
+                <div class="learning-card glass fade-in">
+                    <i data-lucide="code" class="card-icon"></i>
+                    <h3>HTML, CSS & JavaScript</h3>
+                    <p>Mastered the fundamentals of the web through <strong>Code with Harry</strong>.</p>
+                </div>
+                
+                <div class="learning-card glass fade-in" style="animation-delay: 0.1s;">
+                    <i data-lucide="layers" class="card-icon"></i>
+                    <h3>MERN Stack</h3>
+                    <p>Built full-stack capabilities (MongoDB, Express, React, Node.js) with <strong>Tutedude</strong>.</p>
+                </div>
+
+                <div class="learning-card glass fade-in" style="animation-delay: 0.2s;">
+                    <i data-lucide="terminal" class="card-icon"></i>
+                    <h3>Python</h3>
+                    <p>Currently expanding my programming horizons, still learning on <strong>Tutedude</strong>.</p>
+                </div>
+
+                <div class="learning-card glass highlight-card fade-in" style="animation-delay: 0.3s;">
+                    <i data-lucide="rocket" class="card-icon"></i>
+                    <h3>The 100xDevs Journey</h3>
+                    <p>Currently taking the intensive cohort by <strong>Harkirat Singh</strong>. Deep diving into:</p>
+                    <div class="tags">
+                        <span class="tag">DevOps</span>
+                        <span class="tag">Web3</span>
+                        <span class="tag">AI/ML</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title fade-in">Featured <span class="highlight">Projects</span></h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass fade-in">
+                    <div class="project-img">
+                        <div class="project-placeholder">Work Tracker</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Work Tracker</h3>
+                        <p>Full-Stack productivity web app using React, Node, Express, MongoDB. Features Claude API for activity pattern analysis and productivity insights.</p>
+                        <div class="tags">
+                            <span class="tag">MERN</span>
+                            <span class="tag">Claude AI</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Blurred / Under Development) -->
+                <div class="project-card glass blurred-project fade-in" style="animation-delay: 0.2s;">
+                    <div class="project-img blur-content">
+                        <div class="project-placeholder">Secret Project</div>
+                    </div>
+                    <div class="project-info blur-content">
+                        <h3>Next-Gen Web3 App</h3>
+                        <p>Revolutionizing the decentralized landscape. Advanced blockchain integration and AI driven mechanics.</p>
+                        <div class="tags">
+                            <span class="tag">Web3</span>
+                            <span class="tag">Smart Contracts</span>
+                        </div>
+                    </div>
+                    <!-- Hover overlay -->
+                    <div class="under-development-overlay">
+                        <i data-lucide="lock" style="width: 48px; height: 48px; margin-bottom: 1rem;"></i>
+                        <h3>Under Development</h3>
+                        <p>Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2 class="section-title fade-in">My <span class="highlight">Certifications</span></h2>
+            
+            <div class="cert-grid">
+                <!-- Anthropic Certificates -->
+                <div class="cert-card glass fade-in">
+                    <i data-lucide="award" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Claude Code in Action</h3>
+                        <p>Anthropic Academy</p>
+                    </div>
+                    <a href="https://verify.skilljar.com/c/qhnnijv78f7x" target="_blank" class="cert-link">Verify <i data-lucide="external-link"></i></a>
+                </div>
+                <div class="cert-card glass fade-in" style="animation-delay: 0.1s;">
+                    <i data-lucide="award" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Claude 101</h3>
+                        <p>Anthropic Academy</p>
+                    </div>
+                    <a href="https://verify.skilljar.com/c/vkwfu49qy7td" target="_blank" class="cert-link">Verify <i data-lucide="external-link"></i></a>
+                </div>
+                <div class="cert-card glass fade-in" style="animation-delay: 0.2s;">
+                    <i data-lucide="award" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Intro to Claude Cowork</h3>
+                        <p>Anthropic Academy</p>
+                    </div>
+                    <a href="https://verify.skilljar.com/c/o32x74xtxmp2" target="_blank" class="cert-link">Verify <i data-lucide="external-link"></i></a>
+                </div>
+                <div class="cert-card glass fade-in" style="animation-delay: 0.3s;">
+                    <i data-lucide="award" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>AI Fluency</h3>
+                        <p>Anthropic Academy</p>
+                    </div>
+                    <a href="https://verify.skilljar.com/c/grqdxxmqpywu" target="_blank" class="cert-link">Verify <i data-lucide="external-link"></i></a>
+                </div>
+                <div class="cert-card glass fade-in">
+                    <i data-lucide="award" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Building with Claude API</h3>
+                        <p>Anthropic Academy</p>
+                    </div>
+                    <a href="https://verify.skilljar.com/c/ngdmimrwyice" target="_blank" class="cert-link">Verify <i data-lucide="external-link"></i></a>
+                </div>
+                <div class="cert-card glass fade-in" style="animation-delay: 0.1s;">
+                    <i data-lucide="award" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Intro to MCP</h3>
+                        <p>Anthropic Academy</p>
+                    </div>
+                    <a href="https://verify.skilljar.com/c/ywwpc8ajzzyw" target="_blank" class="cert-link">Verify <i data-lucide="external-link"></i></a>
+                </div>
+                <div class="cert-card glass fade-in" style="animation-delay: 0.2s;">
+                    <i data-lucide="award" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>MCP: Advanced Topics</h3>
+                        <p>Anthropic Academy</p>
+                    </div>
+                    <a href="https://verify.skilljar.com/c/njufyjk942ah" target="_blank" class="cert-link">Verify <i data-lucide="external-link"></i></a>
+                </div>
+                
+                <!-- Google Skills Certificate -->
+                <div class="cert-card glass highlight-card fade-in" style="animation-delay: 0.3s;">
+                    <i data-lucide="badge-check" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Google Cloud AI</h3>
+                        <p>Gen AI, LLMs & Responsible AI</p>
+                    </div>
+                    <a href="https://www.skills.google/public_profiles/2d4bf080-4fe0-40bc-beab-aea72d3cb00d" target="_blank" class="cert-link">View Profile <i data-lucide="external-link"></i></a>
+                </div>
+
+                <!-- Code with Harry Certificate -->
+                <div class="cert-card glass fade-in">
+                    <i data-lucide="code-2" class="cert-icon"></i>
+                    <div class="cert-info">
+                        <h3>Ultimate Web Dev</h3>
+                        <p>Code With Harry</p>
+                    </div>
+                    <a href="#" onclick="alert('Certificate ID: CWH-THE-ULTIMATE-WEB-DEV-COURSE-7PBWBHZT'); return false;" class="cert-link">ID: CWH-THE... <i data-lucide="fingerprint"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blogs" class="section">
+            <h2 class="section-title fade-in">My <span class="highlight">Blogs</span></h2>
+            <div class="blog-container glass fade-in">
+                <i data-lucide="book-open" class="blog-icon"></i>
+                <div class="blog-content">
+                    <h3>Writing about the World & Tech</h3>
+                    <p>I frequently write articles mapping out global geopolitics, technology trends, and coding tutorials to share my knowledge. Read my deep dives to understand the intersection of geography and modern tech!</p>
+                    <a href="https://medium.com/@pradhanvishveshwaraiah" target="_blank" class="btn btn-primary mt-4">
+                        Read on Medium <i data-lucide="external-link" style="width: 16px; height: 16px; margin-left: 8px;"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass">
+        <p>&copy; <span id="year"></span> Pradhan V. Designed in pure HTML, CSS, JS.</p>
+        <div class="socials">
+            <a href="https://github.com/pradhanvishveshwaraiah" target="_blank"><i data-lucide="github"></i></a>
+            <a href="https://linkedin.com/in/pradhanvishveshwaraiah" target="_blank"><i data-lucide="linkedin"></i></a>
+            <a href="mailto:pradhanv2409@gmail.com"><i data-lucide="mail"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
