@@ -1,5 +1,5 @@
 // Initialize Lucide Icons
-lucide.createIcons();
+lucide.createIcons();// css 
 
 // Set current year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
